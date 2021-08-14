@@ -13,19 +13,6 @@ const data = [
     {
       title: 'Ant Design Title 3',
     },
-    {
-      title: 'Ant Design Title 4',
-    },
-    {
-        title: 'Ant Design Title 4',
-      },
-      {
-        title: 'Ant Design Title 4',
-      },
-    {
-      title: 'Ant Design Title 4',
-    },
-        
   ];
   
 
@@ -42,7 +29,7 @@ function ContextPage() {
                     <List.Item.Meta
                     avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
                     title={<a href="">{item.title}</a>}
-                    description="Ant Design, a design language for background applications, is refined by Ant UED Team"
+                    description="博客的前几个字简介"
                     />
                 </List.Item>
                 )}
